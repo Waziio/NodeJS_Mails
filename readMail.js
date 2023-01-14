@@ -26,7 +26,8 @@ function searchMails(text) {
   imaps.connect(config).then((connection) => {
     return connection.openBox("INBOX").then(() => {
       //criteres de recherche
-      let criteres = [["FROM", "mazdoud-ext@cogelec.fr"], ["TEXT", text]];
+      let fromMail = ""; // Enter the source email address here
+      let criteres = [["FROM", fromMail], ["TEXT", text]];
 
       let options = {
         bodies: [""],
