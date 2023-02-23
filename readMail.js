@@ -82,5 +82,5 @@ function moveMessages(fromMail, fromBox, toBox) {
   });
 }
 
-searchMails("tu");
-// moveMessages("mazdoud-ext@cogelec.fr", "INBOX", "Drafts");
+// searchMails("Salut");
+// moveMessages("mohamed.azd49@gmail.com", "INBOX", "Drafts");
