@@ -1,4 +1,3 @@
-// const { SimpleParser } = require('mailparser');
 const nodemailer = require('nodemailer');
 const logMail = require("./logMail.json");
 
